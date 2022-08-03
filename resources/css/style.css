@@ -20,6 +20,7 @@ header {
     border-bottom: 1px solid aliceblue;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 header img {
@@ -37,4 +38,25 @@ header ul {
 
 header li {
     display: inline-block;
+}
+
+main {
+    position: relative;
+    top: 80px;
+}
+
+#hero {
+    background-image: url(../Images/Hero\ Image.png);
+    background-position: center;
+    height: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#hero-text {
+    position: relative;
+    top: 40%;
+    color: #bfbfbf;
+    border: 1px solid #bfbfbf;
+    padding: 1% 0;
 }
