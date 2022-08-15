@@ -60,3 +60,26 @@ main {
     border: 1px solid #bfbfbf;
     padding: 1% 0;
 }
+
+
+/* Middle Images */
+#middle {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+#middle-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#middle-images img {
+    width: 300px;
+}
+
+/* Bottom Image */
+#bottom {
+    background-image: url(../Images/Banner\ Image.png);
+}
