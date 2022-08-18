@@ -82,4 +82,33 @@ main {
 /* Bottom Image */
 #bottom {
     background-image: url(../Images/Banner\ Image.png);
+    max-width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    /* Use this in conjunction with #text-boxes flex properties
+     to create a fully auto centered heading and text boxes
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+
+#bottom h2, #text-boxes {
+    position: relative;
+    top: 100px;
+}
+
+#text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.text-box {
+    margin: 1%;
+    width: 200px;
+    background-color: #3a6296;
+    border: 1px solid whitesmoke;
+    
 }
