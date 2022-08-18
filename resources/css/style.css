@@ -46,7 +46,7 @@ main {
 }
 
 #hero {
-    background-image: url(../Images/Hero\ Image.png);
+    background-image: url(../Images/hero_image.png);
     background-position: center;
     height: 800px;
     max-width: 1200px;
@@ -81,7 +81,7 @@ main {
 
 /* Bottom Image */
 #bottom {
-    background-image: url(../Images/Banner\ Image.png);
+    background-image: url(../Images/banner_image.png);
     max-width: 1200px;
     height: 500px;
     margin: 0 auto;
